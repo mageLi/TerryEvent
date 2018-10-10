@@ -6,8 +6,7 @@ var bodyParser = require("body-parser"),
     passport    = require("passport"),
     methodOverride = require("method-override"),
     LocalStrategy = require("passport-local"),
-    User        = require("./models/user"),
-    seedDB = require("./seeds");
+    User        = require("./models/user");
      
      
     //requring routes
